@@ -1,0 +1,24 @@
+schema_version = "1.0.0"
+
+id = "mesh_expression_retargeter"
+version = "1.0.0"
+name = "Mesh Expression Retargeter"
+tagline = "Transfer expressions and deformations between different meshes"
+maintainer = "Vidyut Gore"
+type = "add-on"
+website = "https://vidyut.net"
+
+tags = ["Animation", "Rigging"]
+
+blender_version_min = "4.2.0"
+
+license = [
+  "SPDX:GPL-3.0-or-later",
+]
+
+copyright = [
+  "2026 Vidyut Gore",
+]
+
+[permissions]
+files = "Store reusable mesh correspondence mappings"
